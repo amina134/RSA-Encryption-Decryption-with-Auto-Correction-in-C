@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projet ASD2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projet ASD2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projet ASD2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="eltchiff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eltchiffprim.h" />
+		<Unit filename="eltphchiff.h" />
+		<Unit filename="eltphprim.h" />
+		<Unit filename="eltphrase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eltphrase.h" />
+		<Unit filename="eltpile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eltpile.h" />
+		<Unit filename="eltpileprim.h" />
+		<Unit filename="eltsdd.h" />
+		<Unit filename="lstchiff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lstchiff.h" />
+		<Unit filename="lstchiffprim.h" />
+		<Unit filename="lstpile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lstpile.h" />
+		<Unit filename="lstpileprim.h" />
+		<Unit filename="lstsdd.h" />
+		<Unit filename="lsttxt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lsttxt.h" />
+		<Unit filename="lstxtprim.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pilelst.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
